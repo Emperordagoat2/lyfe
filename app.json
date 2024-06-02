@@ -130,7 +130,7 @@
       "value": "false"
     }
   },
-  "addons": [{ "plan": "heroku-postgresql:essential-1" }],
+  "addons": [{ "plan": "heroku-postgresql" }],
     }
   ]
 }
