@@ -12,8 +12,8 @@
     },
 "repository": {
         "type": "git",
-  "description": "https://github.com/LuciZrTest/lyfe",
-        "url": "git+https://github.com/LuciZrTest/lyfe.git"
+  "description": "https://github.com/Emperordagoat2/lyfe",
+        "url": "git+https://github.com/Emperordagoat2/lyfe.git"
     },
     
     "LOG_MSG": {
@@ -22,7 +22,7 @@
       "value": "false"
     },
     "SUDO": {
-      "description": "admin",
+      "description": "admin or admins",
       "required": true,
       "value": ""
     },
@@ -30,17 +30,17 @@
     "PREFIX": {
       "description": "prefix, check for more",
       "required": true,
-      "value": "."
+      "value": ". or choose more"
     },
     "SESSION_ID": {
-      "description": "session id",
+      "description": "input session id obtained from pair/Qr",
       "required": true,
       "value": ""
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "+918293838182,✘LuciZR✘"
+      "value": "fathom by;emperor"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -63,7 +63,7 @@
     "WARN_LIMIT": {
       "description": "Maximum number of wanings to a person.",
       "required": false,
-      "value": "5"
+      "value": "3"
     },
     "FORCE_LOGOUT": {
       "description": "In Some scenario have to logout web, Only such case make this true and back to false after logout.",
