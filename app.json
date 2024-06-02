@@ -2,7 +2,9 @@
   "name": "Emperor-mdv1",
   "description": "Hey 👋🏻, I'm emperor ... A modular Bot made for WhatsApp fun ✨",
   "logo": "https://i.imgur.com/qeZ1f50.jpeg",
-  "keywords": ["noedjs"],
+  "keywords": [
+    "noedjs"
+  ],
   "success_url": "/",
   "env": {
     "ALWAYS_ONLINE": {
@@ -10,12 +12,11 @@
       "required": true,
       "value": "false"
     },
-"repository": {
-        "type": "git",
-  "description": "https://github.com/Emperordagoat2/lyfe",
-        "url": "git+https://github.com/Emperordagoat2/lyfe.git"
+    "repository": {
+      "type": "git",
+      "description": "https://github.com/Emperordagoat2/lyfe",
+      "url": "git+https://github.com/Emperordagoat2/lyfe.git"
     },
-    
     "LOG_MSG": {
       "description": "Show whatsapp msgs in log",
       "required": false,
@@ -26,7 +27,6 @@
       "required": true,
       "value": "2347041620617"
     },
-    
     "PREFIX": {
       "description": "prefix, check for more",
       "required": true,
@@ -131,12 +131,6 @@
       "value": "false"
     }
   },
-  "addons": [
-    {
-      "plan": "heroku-postgresql"
-    }
-  ],
-
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
@@ -145,7 +139,4 @@
       "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest"
     }
   ]
-}
-    }
-  }
 }
