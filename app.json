@@ -131,17 +131,29 @@
       "value": "false"
     }
   },
-  "addons": [
+"buildpacks": [
     {
-      "plan": "heroku-postgresql:basic"
+      "url": "heroku/nodejs"
+    },
+
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
   ],
 
-  "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }],
   "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "basic"
+                "worker": {
+                        "quantity": 1,
+                        "size": "basic"
+                }
+        },
+
+  "addons":[
+    {
+      "plan":"heroku-postgresql"
     }
   }
 }
