@@ -33,7 +33,7 @@ module.exports = {
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   BRANCH: 'master',
   WORKTYPE : process.env.WORKTYPE || "public",
-  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '+918293838182,✘LuciZR✘',
+  STICKER_PACKNAME: process.env.STICKER_PACKNAME || 'fathom by;emperor',
   ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE),
   LOG_MSG: toBool(process.env.LOG_MSG) || false,
   RMBG_KEY: process.env.RMBG_KEY || 'null',
