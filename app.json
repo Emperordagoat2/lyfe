@@ -130,7 +130,11 @@
       "required": false,
       "value": "false"    
       
-      }
+       }
+     },
+    "addons":[
+    {
+      "plan":"heroku-postgresql"
   },
   "buildpacks": [
     {
