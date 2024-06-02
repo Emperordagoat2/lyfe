@@ -128,7 +128,16 @@
     "DISABLE_START_MESSAGE": {
       "description": "Disable start Message",
       "required": false,
-      "value": "false"
+      "value": "false"    
+      
+      }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
+    },
+    {
+      "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest"
     }
-  }
+  ]
 }
