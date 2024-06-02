@@ -24,13 +24,13 @@
     "SUDO": {
       "description": "admin or admins",
       "required": true,
-      "value": ""
+      "value": "2347041620617"
     },
     
     "PREFIX": {
       "description": "prefix, check for more",
       "required": true,
-      "value": ". or choose more"
+      "value": "."
     },
     "SESSION_ID": {
       "description": "input session id obtained from pair/Qr",
@@ -55,7 +55,7 @@
       "required": false,
       "value": "null"
     },
-    "LANGUAG": {
+    "LANGUAGE": {
       "description": "Default Language for tts or trt",
       "required": false,
       "value": "en"
@@ -123,7 +123,7 @@
     "PERSONAL_MESSAGE": {
       "description": "Send a Welcome message on personal chat",
       "required": false,
-      "value": "null"
+      "value": "welcome to my dm"
     },
     "DISABLE_START_MESSAGE": {
       "description": "Disable start Message",
