@@ -3,7 +3,7 @@
   "description": "Hey 👋🏻, I'm emperor ... A modular Bot made for WhatsApp fun ✨",
   "logo": "https://i.imgur.com/qeZ1f50.jpeg",
   "keywords": [
-    "noedjs"
+    "nodejs"
   ],
   "success_url": "/",
   "env": {
@@ -14,7 +14,6 @@
     },
     "repository": {
       "type": "git",
-      "description": "https://github.com/Emperordagoat2/lyfe",
       "url": "git+https://github.com/Emperordagoat2/lyfe.git"
     },
     "LOG_MSG": {
@@ -131,6 +130,12 @@
       "value": "false"
     }
   },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "as": "DATABASE"
+    }
+  ],
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
