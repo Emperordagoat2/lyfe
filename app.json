@@ -131,12 +131,6 @@
     }
   },
   "addons": [{ "plan": "heroku-postgresql:essential-1" }],
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
-    },
-    {
-      "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest"
     }
   ]
 }
